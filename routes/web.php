@@ -13,8 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 Route::get('/admin/login', [LoginController::class, 'showFormLogin'])->name('login');
+=======
+Route::get('/', function () {
+    return view('backend.admin.dashboard');
+});
+>>>>>>> 8ce61751d6769a4a30b6606778120f21c49ba000
