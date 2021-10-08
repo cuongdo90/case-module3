@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('backend.admin.dashboard');
 });
+>>>>>>> 8ce61751d6769a4a30b6606778120f21c49ba000
